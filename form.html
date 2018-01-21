@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Form</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="form.css">
 </head>
 <body>
 
@@ -16,15 +17,438 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item col-md-2 offset-md-10">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-        </ul>
-      </div>
+      <button type="button" class="btn btn-primary float-right">Nouveau formulaire</button>
     </div>
 </nav>
+
+<h1 class="heading">Mise à jour corporative annuelle</h1>
+
+<!-- FORMS STARTS -->
+<div class="container">
+  <form action="">
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">À</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">De</label>
+        <input type="text" class="form-control">
+      </div>
+
+    </div>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="">Objet</label>
+        <input class="form-control" type="text" placeholder="Mise à jour annuelle" readonly>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="">Numéro de dossier</label>
+        <input type="text" class="form-control">
+      </div>
+    </div>
+
+    <h2 class="heading">Instruction pour la mise à jour annuelle</h2>
+
+    <h4>Nom des administrateurs</h4>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Aucun changement
+      </label>
+    </div>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Adresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h4>Nom des dirigeants</h4>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Aucun changement
+      </label>
+    </div>
+
+    <h6>Président</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Adresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <h6>Vice-président</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Adresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <h6>Secrétaire</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Adresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <h6>Trésorier</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Adresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <h4>Nom des comptables professionnels agréés</h4>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Aucun changement
+      </label>
+    </div>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Adresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Nouveau mandat donné aux comptables:</h6>
+
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">Mission d'audit</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">Mission d'examen</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+      <label class="form-check-label" for="inlineCheckbox1">Mission de compilation</label>
+    </div>
+
+    <h4>États financiers</h4>
+
+    <div class="custom-file">
+      <input type="file" class="custom-file-input" id="customFile">
+      <label class="custom-file-label" for="customFile">Choisir le fichier</label>
+    </div>
+
+    <h5>Nous préférons ne pas vous remettre de copie de nos états financiers, mais voici l’information requise pour la rédaction des résolutions:</h5>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Aucun événement spécial
+      </label>
+    </div>
+
+    <h6>Dividende(s) ordinare(s)</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Montant et modalité de paiement</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Détenteur d'actions de catégorie:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Dividende(s) déterminé(s) à même le CRTG:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Montant et modalité de paiement</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Détenteur d'actions de catégorie:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Dividende(s) libre(s) d’impôt à même le CDC:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Montant et modalité de paiement</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Détenteur d'actions de catégorie:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Rachat(s) d’actions:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">Montant et modalité de paiement</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Détenteur d'actions de catégorie:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Émission(s) d’actions:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-4">
+        <label for="">À:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Nombre et prix par action:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-4">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Transfert(s) d’actions:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-3">
+        <label for="">De:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-3">
+        <label for="">À:</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-3">
+        <label for="">Nombre et catégorie d'actions</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-3">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+      <button type="button" class="btn btn-primary float-left d-block">Ajouter</button>
+    </div>
+
+    <h6>Changement d'adresse du siège social:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="">Nouvelle addresse</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="">Date</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <h6>Nom des établissements:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="">Depuis le:</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <h6>Nombre des employés:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="">Nombre</label>
+        <input type="text" class="form-control">
+      </div>
+
+    </div>
+
+    <h6>Autres noms utilisés:</h6>
+
+    <div class="form-row">
+
+      <div class="form-group col-md-6">
+        <label for="">Nom</label>
+        <input type="text" class="form-control">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="">Depuis le:</label>
+        <input type="date" class="form-control">
+      </div>
+
+    </div>
+
+    <div class="form-group col-md-12">
+      <label for="">Autre</label>
+      <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+    </div>
+
+    <button id="submitBtn" type="submit" class="btn btn-primary btn-block">Envoyer le formulaire</button>
+
+  </form>
+</div>
+
+<!-- FORM ENDS -->
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
